@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Alfred AI Assistant</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #242424;
+            background: #F6F4F0;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #242424;
+        }
+        .subtitle {
+            color: #746f6f;
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            color: #4d9382;
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #3a3a3a;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: white;
+            border: 1px solid rgba(0,0,0,0.06);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 20px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+        strong { color: #242424; }
+        a { color: #4d9382; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .nav {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 40px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0,0,0,0.08);
+            font-size: 13px;
+            color: #746f6f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html">Support</a>
+            <a href="privacy-policy.html"><strong>Privacy Policy</strong></a>
+            <a href="terms-of-use.html">Terms of Use</a>
+        </nav>
+
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Last updated: February 21, 2026</p>
+
+        <div class="highlight">
+            <p><strong>Alfred is built with privacy at its core.</strong> All your data — conversations, transcripts, actions, and summaries — is processed and stored exclusively on your device. We do not collect, transmit, or have access to any of your personal data.</p>
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>Alfred ("the App") is an AI-powered personal assistant for iOS that records conversations, transcribes speech, and extracts actionable insights. This Privacy Policy explains how the App handles your information.</p>
+        <p>The App is developed and maintained by an independent developer ("we", "us", "our"). By using Alfred, you agree to the practices described in this policy.</p>
+
+        <h2>2. Data We Do NOT Collect</h2>
+        <p>We want to be clear about what we do <strong>not</strong> do:</p>
+        <ul>
+            <li>We do <strong>not</strong> collect or transmit any personal data to external servers</li>
+            <li>We do <strong>not</strong> use analytics, tracking, or telemetry services</li>
+            <li>We do <strong>not</strong> display advertisements</li>
+            <li>We do <strong>not</strong> share, sell, or rent any data to third parties</li>
+            <li>We do <strong>not</strong> use cloud storage or synchronization services</li>
+            <li>We do <strong>not</strong> collect device identifiers, IP addresses, or usage statistics</li>
+        </ul>
+
+        <h2>3. Data Processed On Your Device</h2>
+        <p>Alfred processes the following types of data entirely on your device:</p>
+
+        <h3>Audio Recordings</h3>
+        <p>When you start a listening session, the App records audio through your device's microphone. Audio files are stored locally in the App's sandboxed storage and are never transmitted off your device.</p>
+
+        <h3>Speech Transcription</h3>
+        <p>Audio is transcribed to text using Apple's on-device Speech Recognition framework. Transcription runs locally on your device without sending audio data to any server.</p>
+
+        <h3>AI Analysis</h3>
+        <p>The App uses Apple's on-device Foundation Models (Apple Intelligence) to analyze transcripts and extract actions, decisions, and summaries. When Apple Intelligence is not available on your device, the App falls back to local rule-based processing. In both cases, all analysis happens entirely on your device.</p>
+
+        <h3>Speaker Identification</h3>
+        <p>The App uses a bundled machine learning model (FluidAudio, based on pyannote) to distinguish between different speakers in a conversation. This model runs locally on your device.</p>
+
+        <h3>Chat Conversations</h3>
+        <p>Conversations with the in-app AI assistant are processed using Apple's on-device Foundation Models and stored locally on your device.</p>
+
+        <h2>4. Data Storage and Security</h2>
+        <p>All data is stored locally on your device with the following security measures:</p>
+        <ul>
+            <li><strong>Encrypted database:</strong> Your transcripts, actions, and summaries are stored in a database protected by iOS file protection (encrypted at rest)</li>
+            <li><strong>Keychain protection:</strong> Encryption keys are stored in the iOS Keychain with device-only access</li>
+            <li><strong>App sandboxing:</strong> All files are stored within the App's iOS sandbox, inaccessible to other apps</li>
+            <li><strong>Optional biometric lock:</strong> You can enable Face ID or Touch ID to protect access to the App</li>
+        </ul>
+
+        <h2>5. Device Permissions</h2>
+        <p>Alfred requests the following device permissions, each requiring your explicit consent:</p>
+        <ul>
+            <li><strong>Microphone:</strong> Required to record conversations for transcription</li>
+            <li><strong>Speech Recognition:</strong> Required for on-device speech-to-text conversion</li>
+            <li><strong>Reminders:</strong> Optional — allows you to sync extracted action items to the iOS Reminders app</li>
+            <li><strong>Calendar:</strong> Optional — allows you to sync extracted events to the iOS Calendar app</li>
+            <li><strong>Notifications:</strong> Optional — for daily summary and morning briefing alerts</li>
+            <li><strong>Siri:</strong> Optional — enables voice shortcuts to control the App hands-free</li>
+        </ul>
+
+        <h2>6. Integration with iOS Apps</h2>
+        <p>When you choose to sync an action item to iOS Reminders or Calendar, the relevant data (title, description, date) is written to those apps via Apple's EventKit framework. This data then follows the privacy settings of your Reminders and Calendar apps, including any iCloud sync you may have enabled at the system level. Alfred itself does not initiate any cloud synchronization.</p>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <p>You have full control over your data:</p>
+        <ul>
+            <li>Delete individual listening sessions, transcripts, or action items at any time</li>
+            <li>Delete all data from Settings</li>
+            <li>Uninstalling the App removes all locally stored data</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Alfred is not directed at children under the age of 13. We do not knowingly collect any information from children. Since no data leaves the device, no data from any user — including children — is collected by us.</p>
+
+        <h2>9. Third-Party Services</h2>
+        <p>Alfred does not integrate with any third-party services, analytics platforms, or advertising networks. The only third-party component is the FluidAudio library (based on pyannote) for speaker identification, which runs entirely on-device with no network communication.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Last updated" date. We encourage you to review this page periodically.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy or your data, please contact us at:</p>
+        <p><a href="mailto:alfred.ai.app@outlook.com">alfred.ai.app@outlook.com</a></p>
+
+        <div class="footer">
+            <p>&copy; 2026 Alfred AI Assistant. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
